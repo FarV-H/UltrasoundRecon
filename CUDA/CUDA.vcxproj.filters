@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{be142350-fa15-4f13-be9e-993cbb1b8226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5de5e79c-57c0-4a48-b410-4351a86f4c28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\calc_weight.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cuda_utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrix_operator.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\project_3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\backproject_3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\backproject_3d.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\project_3d.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\matrix_operator.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\mex_project_3d.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\main.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\types.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\project_3d.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\mex_backproject_3d.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\backproject_3d.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

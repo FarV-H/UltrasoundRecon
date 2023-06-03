@@ -1,0 +1,25 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        { 
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "C:/Program Files/MATLAB/R2022a/bin/win64/MATLAB.exe",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "handle SIGSEGV nostop"
+                },
+                {
+                     "text": "handle SIGSEGV noprint"
+                }
+            ],
+            "miDebuggerPath": "C:/ProgramData/MATLAB/SupportPackages/R2019b/3P.instrset/mingw_w64.instrset/bin/gdb.exe"
+        }
+    ]
+}

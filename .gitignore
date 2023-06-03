@@ -1,0 +1,7 @@
+*.bin
+*.mat
+*.asv
+*.gif
+CUDA/.vs
+CUDA/x64
+MEX
